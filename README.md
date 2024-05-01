@@ -13,28 +13,12 @@ one-to-one and onto function (bijection) $f: V_1 \rightarrow V_2$ such that $(u,
 
 Answer:
 
-If graph $A$ and graph $B$ have the same amount of nodes, and they are all connected, the two graphs must be isomorphic. For example,
-
-Graph A:
-
-$V_A$ = (a, b, c)
-
-$E_A$ = ((a, b), (b, c))
-
-Graph B:
-
-$V_B$ = (x, y, z)
-
-$E_B$ = ((x, y), (y, z))
+If graph $A$ and graph $B$ have the same amount of nodes, and they are all connected, the two graphs must be isomorphic.
 
 Bijection: $f: V_A \rightarrow V_B$
 
-f(a) = x
+This bijection always exists because the two graphs have the same amount of nodes.
 
-f(b) = y
+For any edge in graph $A$ (x, y), there is a corresponding edge in graph $B$ (f(x), f(y)) which proves the graphs are completely connected.
 
-f(c) = z
-
-For any edge in graph $A$, there is a corresponding edge in graph $B$.
-
-The two graphs have the same amount of nodes and they have the same amount of edges so they are completely connected and the two graphs must be isomorphic.
+If the two graphs have the same amount of nodes and there is a bijection between the nodes in graph $A$ and graph $B$, the two graphs must be isomorphic.
